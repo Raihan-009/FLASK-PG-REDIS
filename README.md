@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 ```bash
 postgresql://postgres:admin@localhost:5432/poridhi
 ```
-<p>Postgres shell access:</p>
+<p>Postgres shell access :</p>
 
 ```bash
 psql -h localhost -p 5432 -U postgres
@@ -50,7 +50,9 @@ select * from tablename
 
 <p>In order to start a redis server, we used an image of redis and used docker. Build a redis image and run at port 6379</p>
 
-<code>docker run -p 6379:6379 --name my-redis-container -d redis</code>
+```bash
+docker run -p 6379:6379 --name my-redis-container -d redis
+```
 
 ## Database Initialize
 ```python
