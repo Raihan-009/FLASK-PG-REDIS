@@ -70,5 +70,6 @@ flask db upgrade  # To apply all the changes.
 <code>python3 run.py</code>
 
 ## Test
-<p>Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) to check if things are okay or not.</p>
+Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) to check if things are okay or not.
 
+## Cheers 🍻 Have a good day!
